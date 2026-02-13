@@ -1,0 +1,1 @@
+Get-ChildItem -Path C:\ -Recurse -File -ErrorAction SilentlyContinue | Sort-Object Length -Descending | Select-Object -First 3 | Select-Object Name, @{Name="Size (GB)"; Expression={[math]::Round($_.Length / 1GB, 2)}}, FullName

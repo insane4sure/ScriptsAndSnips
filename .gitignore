@@ -1,0 +1,17 @@
+# AWS credentials and sensitive data
+aws_accounts/
+*.pem
+*.key
+*.credentials
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
