@@ -1,5 +1,5 @@
 # PIM Approvers Report
-Generated on: 2026-02-13 18:59:55
+Generated on: 2026-02-13 19:15:50
 
 Total Groups: 35
 
@@ -11,7 +11,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_PIM_Approvers
 
 ### Owner Role
 
@@ -26,7 +33,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_PIM_Approvers
 
 ### Owner Role
 
@@ -41,7 +55,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_PIM_Approvers
 
 ### Owner Role
 
@@ -56,7 +77,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_PIM_Approvers
 
 ### Owner Role
 
@@ -71,7 +99,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_PIM_Approvers
 
 ### Owner Role
 
@@ -86,7 +121,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_PIM_Approvers
 
 ### Owner Role
 
@@ -101,7 +143,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_PIM_Approvers
 
 ### Owner Role
 
@@ -116,7 +165,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_PIM_Approvers
 
 ### Owner Role
 
@@ -131,7 +187,16 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- User: SMB Danielle Malagreca-Martin (danielle.martin@saberin.com)
+- User: Benjamin Saberin (ben@saberin.com)
+- User: Jennifer Graham (Jennifer.Graham@saberin.com)
 
 ### Owner Role
 
@@ -176,7 +241,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_Dynamic-JobTitle-Manager
 
 ### Owner Role
 
@@ -195,7 +267,14 @@ Total Groups: 35
 
 ### Owner Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_Dynamic-JobTitle-Manager
 
 ---
 
@@ -206,7 +285,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_Dynamic-JobTitle-Manager
 
 ### Owner Role
 
@@ -221,7 +307,15 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_PIM_GlobalAdmin-Approvers
+- Group: SG_Sa_Nebulas
 
 ### Owner Role
 
@@ -236,7 +330,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG-SDP-PIM-Approvers
 
 ### Owner Role
 
@@ -251,7 +352,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_Dynamic-JobTitle-Manager
 
 ### Owner Role
 
@@ -266,7 +374,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_Dynamic-JobTitle-Manager
 
 ### Owner Role
 
@@ -281,7 +396,15 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_Dynamic-JobTitle-Manager
+- User: Jennifer Graham (Jennifer.Graham@saberin.com)
 
 ### Owner Role
 
@@ -296,7 +419,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_Dynamic-JobTitle-Manager
 
 ### Owner Role
 
@@ -311,7 +441,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_Dynamic-JobTitle-Manager
 
 ### Owner Role
 
@@ -326,7 +463,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_Dynamic-JobTitle-Manager
 
 ### Owner Role
 
@@ -341,7 +485,15 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- User: Benjamin Saberin (ben@saberin.com)
+- User: SMB Danielle Malagreca-Martin (danielle.martin@saberin.com)
 
 ### Owner Role
 
@@ -356,7 +508,15 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_PIM_SaberinDevAWS_Approvers
+- User: Jennifer Graham (Jennifer.Graham@saberin.com)
 
 ### Owner Role
 
@@ -371,7 +531,16 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- User: SA Benjamin R. Saberin (sa_bsaberin@saberin.com)
+- Group: SG_Dynamic-JobTitle-Manager
+- Group: SG_AWS-Hosting-PIM-Approval
 
 ### Owner Role
 
@@ -386,7 +555,15 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_Dynamic-JobTitle-Manager
+- User: Jennifer Graham (Jennifer.Graham@saberin.com)
 
 ### Owner Role
 
@@ -401,7 +578,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_Dynamic-JobTitle-Manager
 
 ### Owner Role
 
@@ -416,7 +600,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_Dynamic-JobTitle-Manager
 
 ### Owner Role
 
@@ -431,7 +622,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_Dynamic-JobTitle-Manager
 
 ### Owner Role
 
@@ -461,7 +659,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: sg-PIM-CloudApplicationAdministrator-Approvers
 
 ### Owner Role
 
@@ -476,7 +681,14 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_PIM_GlobalAdmin-Approvers
 
 ### Owner Role
 
@@ -506,11 +718,23 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- Group: SG_SP_Editors Request Approvers
 
 ### Owner Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
 
 ---
 
@@ -521,7 +745,17 @@ Total Groups: 35
 
 ### Member Role
 
-**Approval Required:** No (Automatic activation)
+**Approval Required:** Yes
+
+**Approval Stages:** 1
+
+**Stage (Timeout: 1 days):**
+
+Primary Approvers:
+- User: Nebulas Support (SXX) (sa_nebulas@saberin.com)
+- User: Benjamin Saberin (ben@saberin.com)
+- User: SMB Danielle Malagreca-Martin (danielle.martin@saberin.com)
+- User: SMB Andre Bogojevic (Andre.Bogojevic@saberin.com)
 
 ### Owner Role
 

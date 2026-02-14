@@ -90,7 +90,7 @@ foreach ($group in $groups) {
             $memberPolicyDetailUri = "https://graph.microsoft.com/beta/policies/roleManagementPolicies/$($memberPolicyId)?`$expand=rules"
             $memberPolicy = Invoke-MgGraphRequest -Method GET -Uri $memberPolicyDetailUri
             
-            $approvalRule = $memberPolicy.rules | Where-Object { $_.'@odata.type' -eq '#microsoft.graph.approvalRule' }
+            $approvalRule = $memberPolicy.rules | Where-Object { $_.'@odata.type' -like '*ApprovalRule' }
             
             if ($approvalRule -and $approvalRule.setting.isApprovalRequired) {
                 $markdown += "**Approval Required:** Yes`n`n"
@@ -104,11 +104,11 @@ foreach ($group in $groups) {
                         foreach ($approver in $stage.primaryApprovers) {
                             switch ($approver.'@odata.type') {
                                 '#microsoft.graph.singleUser' {
-                                    $user = Get-MgUser -UserId $approver.userId -ErrorAction SilentlyContinue
+                                    $user = Get-MgUser -UserId $approver.id -ErrorAction SilentlyContinue
                                     $markdown += "- User: $($user.DisplayName) ($($user.UserPrincipalName))`n"
                                 }
                                 '#microsoft.graph.groupMembers' {
-                                    $approverGroup = Get-MgGroup -GroupId $approver.groupId -ErrorAction SilentlyContinue
+                                    $approverGroup = Get-MgGroup -GroupId $approver.id -ErrorAction SilentlyContinue
                                     $markdown += "- Group: $($approverGroup.DisplayName)`n"
                                 }
                                 '#microsoft.graph.requestorManager' {
@@ -138,7 +138,7 @@ foreach ($group in $groups) {
             $ownerPolicyDetailUri = "https://graph.microsoft.com/beta/policies/roleManagementPolicies/$($ownerPolicyId)?`$expand=rules"
             $ownerPolicy = Invoke-MgGraphRequest -Method GET -Uri $ownerPolicyDetailUri
             
-            $approvalRule = $ownerPolicy.rules | Where-Object { $_.'@odata.type' -eq '#microsoft.graph.approvalRule' }
+            $approvalRule = $ownerPolicy.rules | Where-Object { $_.'@odata.type' -like '*ApprovalRule' }
             
             if ($approvalRule -and $approvalRule.setting.isApprovalRequired) {
                 $markdown += "**Approval Required:** Yes`n`n"
@@ -152,11 +152,11 @@ foreach ($group in $groups) {
                         foreach ($approver in $stage.primaryApprovers) {
                             switch ($approver.'@odata.type') {
                                 '#microsoft.graph.singleUser' {
-                                    $user = Get-MgUser -UserId $approver.userId -ErrorAction SilentlyContinue
+                                    $user = Get-MgUser -UserId $approver.id -ErrorAction SilentlyContinue
                                     $markdown += "- User: $($user.DisplayName) ($($user.UserPrincipalName))`n"
                                 }
                                 '#microsoft.graph.groupMembers' {
-                                    $approverGroup = Get-MgGroup -GroupId $approver.groupId -ErrorAction SilentlyContinue
+                                    $approverGroup = Get-MgGroup -GroupId $approver.id -ErrorAction SilentlyContinue
                                     $markdown += "- Group: $($approverGroup.DisplayName)`n"
                                 }
                                 '#microsoft.graph.requestorManager' {

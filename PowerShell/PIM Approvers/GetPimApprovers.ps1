@@ -122,7 +122,7 @@ try {
             $memberPolicy = Invoke-MgGraphRequest -Method GET -Uri $memberPolicyDetailUri
             
             # Find approval rule
-            $approvalRule = $memberPolicy.rules | Where-Object { $_.'@odata.type' -eq '#microsoft.graph.approvalRule' }
+            $approvalRule = $memberPolicy.rules | Where-Object { $_.'@odata.type' -like '*ApprovalRule' }
             
             if ($approvalRule) {
                 Write-Host "`nApproval Required: " -NoNewline
@@ -137,11 +137,11 @@ try {
                         foreach ($approver in $stage.primaryApprovers) {
                             switch ($approver.'@odata.type') {
                                 '#microsoft.graph.singleUser' {
-                                    $user = Get-MgUser -UserId $approver.userId -ErrorAction SilentlyContinue
+                                    $user = Get-MgUser -UserId $approver.id -ErrorAction SilentlyContinue
                                     Write-Host "    - User: $($user.DisplayName) ($($user.UserPrincipalName))" -ForegroundColor White
                                 }
                                 '#microsoft.graph.groupMembers' {
-                                    $approverGroup = Get-MgGroup -GroupId $approver.groupId -ErrorAction SilentlyContinue
+                                    $approverGroup = Get-MgGroup -GroupId $approver.id -ErrorAction SilentlyContinue
                                     Write-Host "    - Group: $($approverGroup.DisplayName)" -ForegroundColor White
                                 }
                                 '#microsoft.graph.requestorManager' {
@@ -158,11 +158,11 @@ try {
                             foreach ($approver in $stage.escalationApprovers) {
                                 switch ($approver.'@odata.type') {
                                     '#microsoft.graph.singleUser' {
-                                        $user = Get-MgUser -UserId $approver.userId -ErrorAction SilentlyContinue
+                                        $user = Get-MgUser -UserId $approver.id -ErrorAction SilentlyContinue
                                         Write-Host "      - User: $($user.DisplayName) ($($user.UserPrincipalName))" -ForegroundColor White
                                     }
                                     '#microsoft.graph.groupMembers' {
-                                        $approverGroup = Get-MgGroup -GroupId $approver.groupId -ErrorAction SilentlyContinue
+                                        $approverGroup = Get-MgGroup -GroupId $approver.id -ErrorAction SilentlyContinue
                                         Write-Host "      - Group: $($approverGroup.DisplayName)" -ForegroundColor White
                                     }
                                 }
@@ -192,7 +192,7 @@ try {
             $ownerPolicy = Invoke-MgGraphRequest -Method GET -Uri $ownerPolicyDetailUri
             
             # Find approval rule
-            $approvalRule = $ownerPolicy.rules | Where-Object { $_.'@odata.type' -eq '#microsoft.graph.approvalRule' }
+            $approvalRule = $ownerPolicy.rules | Where-Object { $_.'@odata.type' -like '*ApprovalRule' }
             
             if ($approvalRule) {
                 Write-Host "`nApproval Required: " -NoNewline
@@ -207,11 +207,11 @@ try {
                         foreach ($approver in $stage.primaryApprovers) {
                             switch ($approver.'@odata.type') {
                                 '#microsoft.graph.singleUser' {
-                                    $user = Get-MgUser -UserId $approver.userId -ErrorAction SilentlyContinue
+                                    $user = Get-MgUser -UserId $approver.id -ErrorAction SilentlyContinue
                                     Write-Host "    - User: $($user.DisplayName) ($($user.UserPrincipalName))" -ForegroundColor White
                                 }
                                 '#microsoft.graph.groupMembers' {
-                                    $approverGroup = Get-MgGroup -GroupId $approver.groupId -ErrorAction SilentlyContinue
+                                    $approverGroup = Get-MgGroup -GroupId $approver.id -ErrorAction SilentlyContinue
                                     Write-Host "    - Group: $($approverGroup.DisplayName)" -ForegroundColor White
                                 }
                                 '#microsoft.graph.requestorManager' {
@@ -228,11 +228,11 @@ try {
                             foreach ($approver in $stage.escalationApprovers) {
                                 switch ($approver.'@odata.type') {
                                     '#microsoft.graph.singleUser' {
-                                        $user = Get-MgUser -UserId $approver.userId -ErrorAction SilentlyContinue
+                                        $user = Get-MgUser -UserId $approver.id -ErrorAction SilentlyContinue
                                         Write-Host "      - User: $($user.DisplayName) ($($user.UserPrincipalName))" -ForegroundColor White
                                     }
                                     '#microsoft.graph.groupMembers' {
-                                        $approverGroup = Get-MgGroup -GroupId $approver.groupId -ErrorAction SilentlyContinue
+                                        $approverGroup = Get-MgGroup -GroupId $approver.id -ErrorAction SilentlyContinue
                                         Write-Host "      - Group: $($approverGroup.DisplayName)" -ForegroundColor White
                                     }
                                 }
